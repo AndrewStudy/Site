@@ -12,10 +12,17 @@ img{
     display: block;
 }
 
+@media (max-width: 400px){
+.namelogo{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+}
+}
+
 header{
     display: flex;
     color: rgb(68, 146, 110);
-    text-align: left;
 }
 
 .card{
@@ -33,7 +40,6 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
-    text-align: left;
 }
 
 a{
